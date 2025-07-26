@@ -77,12 +77,12 @@ pip install -r requirements.txt
 
 5.5. Ejecutar el Análisis y Modelado
 
-El script principal (main_telecom_churn.py - nombre sugerido para unificar todo el código) realizará todas las fases del proyecto, incluyendo el preprocesamiento, el entrenamiento y optimización de modelos, la evaluación, y la generación de gráficos.
+El script principal (Telecom_X_LATAM_II.py - nombre sugerido para unificar todo el código) realizará todas las fases del proyecto, incluyendo el preprocesamiento, el entrenamiento y optimización de modelos, la evaluación, y la generación de gráficos.
 Bash
 
-python main_telecom_churn.py
+python Telecom_X_LATAM_II.py
 
-(Asumiendo que has guardado el código proporcionado anteriormente en un archivo llamado main_telecom_churn.py.)
+(Asumiendo que has guardado el código proporcionado anteriormente en un archivo llamado Telecom_X_LATAM_II.py.)
 
 Los resultados de la ejecución, incluidas las métricas de rendimiento y los gráficos de matrices de confusión e importancia de características, se imprimirán en la consola y se guardarán como archivos PNG en el mismo directorio.
 
