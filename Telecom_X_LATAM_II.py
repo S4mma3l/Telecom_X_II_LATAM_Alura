@@ -195,7 +195,7 @@ if model_performance:
 
     print(f"🏆 Modelo ganador: '{best_model_name}' (ROC-AUC: {best_model_score:.4f}).")
 
-    model_filename = 'mejor_modelo_churn_balanceado.joblib'
+    model_filename = 'modelo\\mejor_modelo_churn_balanceado.joblib'
     joblib.dump(best_model_pipeline, model_filename)
     print(f"✅ Pipeline del modelo ganador (incluyendo preprocesador y SMOTE) guardado exitosamente como '{model_filename}'")
 else:
